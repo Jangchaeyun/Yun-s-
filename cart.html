@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yun's 쇼핑몰</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css"/>    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="header">
+        <a href="index.html"><img src="img/logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">홈</a></li>
+                <li><a href="shop.html">쇼핑</a></li>
+                <li><a href="blog.html">매거진</a></li>
+                <li><a href="about.html">소개</a></li>
+                <li><a href="contact.html">고객센터</a></li>
+                <li id="lg-bag"><a href="cart.html" class="active"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="contact-header">
+        <h2>#장바구니</h2>
+        <p>사고 싶은 목록</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>제거</td>
+                    <td>이미지</td>
+                    <td>제품명</td>
+                    <td>가격</td>
+                    <td>수량</td>
+                    <td>총가격</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></i></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>[리뉴얼 ver.] 린넨 세미 와이드 밴딩 팬츠 세트</td>
+                    <td>49,500원</td>
+                    <td><input type="number" value="1"></td>
+                    <td>49,500원</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></i></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>유니섹스 세미 와이드 밴딩 슬랙스</td>
+                    <td>33,900원</td>
+                    <td><input type="number" value="1"></td>
+                    <td>33,900원</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></i></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>에센셜 쿨 코튼 2-PACK 티셔츠</td>
+                    <td>49,500원</td>
+                    <td><input type="number" value="1"></td>
+                    <td>49,500원</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>쿠폰 적용</h3>
+            <div>
+                <input type="text" placeholder="코드 입력">
+                <button class="normal">적용</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>장바구니</h3>
+            <table>
+                <tr>
+                    <td>
+                        장바구니 총 가격
+                    </td>
+                    <td>
+                        132,900원
+                    </td>
+                </tr>
+                <tr>
+                    <td>배송</td>
+                    <td>무료</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>132,900원</strong></td>
+                </tr>
+            </table>
+            <button>결제하기</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo"src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>주소:</strong> 한국 부천시 조마루로 105번길 8-8</p>
+            <p><strong>전화번호:</strong> (+82) 010-6603-1148</p>
+            <p><strong>운영 시간:</strong> 9:00 ~ 18:00, 월 - 금</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">우리에 대해서</a>
+            <a href="#">배달 정보</a>
+            <a href="#">개인 정보 정책</a>
+            <a href="#">약관 및 조건</a>
+            <a href="#">문의하기</a>
+        </div>
+        <div class="col">
+            <h4>나의 계정</h4>
+            <a href="#">로그인</a>
+            <a href="#">장바구니</a>
+            <a href="#">나의 위시리스트</a>
+            <a href="#">주문 조회</a>
+            <a href="#">도움</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>앱스토어&구글플레이</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>안전한 결제 방법</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2022.Yun's Shopping Mall HTML CSS</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
